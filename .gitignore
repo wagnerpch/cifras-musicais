@@ -1,0 +1,62 @@
+# Ferramentas do Dart/Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+
+# Web
+build/web
+*.dart.js
+*.part.js
+*.js.deps
+*.js.map
+*.info.json
+
+# Android
+.gradle/
+local.properties
+**/android/**/generated/
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+
+# iOS/macOS
+**/ios/.generated/
+**/ios/Pods/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/DerivedData/
+*.moved-aside
+**/doc/api/
+.symbols
+.last_build_id
+
+# Meio Ambiente / Segredos
+.env*
+*.keystore
+*.jks
+
+# IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.history
+
+# Sistema
+.DS_Store
+*.log
+
+#agentes
+.agents/
+
+#keystore
+android/key.properties
+android/app/upload-keystore.jks
